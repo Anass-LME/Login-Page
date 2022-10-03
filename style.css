@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src: url(Fonts/FreeSans.ttf);
+}
+
+
+body{
+    background-image: url(Images/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+h1{
+    
+    color: aliceblue;
+    margin-top: 25px;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    float: inline-start;
+}
+.text{
+    padding: 0px 20px;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 30px;
+  background-color: rgb(236, 231, 231);
+  border-color: rgb(236, 231, 0);
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 20px;
+    display: block;
+}
+
+div {
+    width: 450px;
+    height: 265px;
+    margin: auto;
+    padding: 40px;
+    margin-bottom: 80px;
+    border: 1PX solid white;
+    box-shadow: 0px 3px 7px #beb6b6;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(255, 245, 245);
+  }
+a{
+    float: inline-end;
+    color:grey;
+    position: absolute;
+    
+}
+.btn {
+    font-weight: 600;
+float: left;
+padding: 10px;
+border-radius: 5px;
+border: none;
+color: white;
+background-color: rgb(118, 118, 245);
+margin-bottom: 40px;
+margin-top: 20px;
+font-size: 17px;
+
+
+}
+#SDM  {
+    margin-right: 10px;
+  }
+a{
+    margin-left: 145px;
+}
